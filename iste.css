@@ -226,6 +226,18 @@ html,body {
 
 }
 
+  @media only screen and (max-width: 600px) {
+    /* Styles for screens up to 600px wide (typical mobile devices) */
+    #Aboutus {
+      padding: 10px;
+      font-size: 16px;
+      text-align: left;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+
+
 .who,p.who{
 	text-align: center;
 	padding-right: 120px;
