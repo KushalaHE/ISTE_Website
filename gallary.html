@@ -46,7 +46,21 @@ OpenWin = this.open(page, "KirupaStyle", "toolbar=no,menubar=no,location=no,scro
 
 
 </head>
+<style>
+  .image-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px; /* Adjust the gap between images as needed */
+    margin-bottom: 10px;
+  }
 
+  @media only screen and (max-width: 600px) {
+    .image-grid {
+      flex-direction: column;
+    }
+  }
+</style>
 <body data-spy="scroll" class="loaded" data-target="#navbarres">
 
 
