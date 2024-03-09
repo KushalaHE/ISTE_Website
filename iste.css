@@ -237,7 +237,6 @@ html,body {
     }
   }
 
-
 .who,p.who{
 	text-align: center;
 	padding-right: 120px;
@@ -298,7 +297,44 @@ li,.nav-link{
 	color: gray;
 }
 
+.center-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
+.center-buttons a {
+  display: block;
+  margin: 10px;
+  background-color: #3498db;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  border: 2px solid #3498db;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.download-button {
+  display: block;
+  margin: 10px;
+  background-color: #3498db;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  border: 2px solid #3498db;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.download-button:hover {
+  background-color: #2677ad;
+  color: #fff;
+  transform: scale(1.1);
+}
 
 
 .sidenav {
