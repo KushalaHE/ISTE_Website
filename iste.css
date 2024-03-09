@@ -391,6 +391,9 @@ li,.nav-link{
 
 /*btm nav*/
 .who2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   padding-right: 120px; 
   padding-left: 120px;
@@ -403,17 +406,25 @@ li,.nav-link{
   line-height: 35px;
 }
 
-
 .fa {
   padding: 20px;
-  font-size: 30px;
+  font-size: 24px;
   width: 50px;
   text-align: center;
+  margin: 10px;
   text-decoration: none;
     color: gray;
-
 }
 
+  @media only screen and (max-width: 600px) {
+    .who2 {
+      padding: 10px;
+    }
+
+    .fa {
+      font-size: 20px;
+    }
+  }
 /* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
@@ -425,6 +436,7 @@ li,.nav-link{
   padding-left: 20px;
   color: gray;
   text-decoration: none;
+  margin: 10px;
 }
 .space:hover{
   text-decoration: none;
