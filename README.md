@@ -1,1 +1,1 @@
-The ISTE Website of SSIT College where you can find many more features its easy to use check it once.
+The ISTE Website of SSIT College where you can find the events and members of ISTE and our technical past.
